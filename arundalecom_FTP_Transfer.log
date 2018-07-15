@@ -1,0 +1,73 @@
+ftp> ftp> ! rem This is a comment
+ftp> ! :: and this is also a comment
+Connected to ftp.arundale.com.
+open ftp.arundale.com
+220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
+220-You are user number 2 of 50 allowed.
+220-Local time is now 05:08. Server port: 21.
+220-IPv6 connections are also welcome on this server.
+220 You will be disconnected after 15 minutes of inactivity.
+User (ftp.arundale.com:(none)): 
+331 User stfinge1 OK. Password required
+
+230 OK. Current restricted directory is /
+ftp> Hash mark printing On  ftp: (2048 bytes/hash mark) .
+ftp> hash
+cd public_html/downloads
+250 OK. Current directory is /public_html/downloads
+ftp> ftp> ! rem  - Runs the specified command on the local computer
+ Volume in drive C has no label.
+ Volume Serial Number is 98C8-9684
+
+ Directory of C:\Users\Admin\Documents\ais\YachtSource
+
+22/01/2018  14:23    <DIR>          .
+22/01/2018  14:23    <DIR>          ..
+01/05/2008  08:13             1,406 arundale.ico
+28/01/2018  10:08                73 arundalecom_FTP_Transfer.log
+05/01/2018  10:30                64 arundalecom_upload.bat
+28/01/2018  10:08               331 arundalecom_upload.txt
+20/06/2015  12:45               318 bluepeter.ico
+18/05/2015  18:37             2,173 clsTimer.cls
+15/01/2018  15:08            26,333 fmrDaventech.frm
+15/01/2018  15:08             1,418 fmrDaventech.frx
+20/02/2015  16:53             8,665 frmDpyBox.frm
+20/02/2015  16:53             1,418 frmDpyBox.frx
+20/02/2015  16:53             8,806 frmEvents.frm
+20/02/2015  16:53             1,418 frmEvents.frx
+22/01/2018  14:23           127,936 frmMain.frm
+22/01/2018  14:23               330 frmMain.frx
+22/01/2018  14:23             5,932 frmMyMsgBox.frm
+22/01/2018  14:23                 6 frmMyMsgBox.frx
+05/01/2018  10:30    <DIR>          help
+07/01/2018  12:17               559 license.txt
+01/05/2015  07:19             5,058 modEncrypt.bas
+30/04/2015  08:53             1,556 modLocale.bas
+19/07/2015  11:19             7,540 modLog.bas
+17/01/2018  12:44            95,010 modMain.bas
+22/01/2018  13:56             7,801 modMyMsgBox.bas
+30/04/2015  09:09            19,408 modSysCalls.bas
+12/02/2015  11:21             2,628 modWav.bas
+15/01/2018  15:29           294,912 RacingSignals.exe
+15/01/2018  15:36             9,577 RacingSignals.iss
+22/01/2018  14:23             1,648 RacingSignals.vbp
+26/01/2018  13:09               536 RacingSignals.vbw
+15/01/2018  15:34         2,678,837 RacingSignals_setup_1.3.4.exe
+07/01/2018  12:33    <DIR>          vbFiles
+              29 File(s)      3,311,697 bytes
+               4 Dir(s)  1,880,534,241,280 bytes free
+ftp> !dir
+ascii
+200 TYPE is now ASCII
+ftp> binary
+200 TYPE is now 8-bit binary
+ftp> put RacingSignals_setup_1.3.4.exe
+200 PORT command successful
+150 Connecting to port 49621
+############################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+226-File successfully transferred
+226 31.307 seconds (measured here), 83.56 Kbytes per second
+ftp: 2678837 bytes sent in Seconds Kbytes/sec.
+ftp> 30.6687.38bye
+221-Goodbye. You uploaded 2617 and downloaded 0 kbytes.
+221 Logout.

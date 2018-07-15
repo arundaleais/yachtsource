@@ -1,0 +1,56 @@
+ftp> ftp> ! rem This is a comment
+ftp> ! :: and this is also a comment
+Connected to ftp.arundale.com.
+open ftp.arundale.com
+220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
+220-You are user number 2 of 50 allowed.
+220-Local time is now 05:30. Server port: 21.
+220-IPv6 connections are also welcome on this server.
+220 You will be disconnected after 15 minutes of inactivity.
+User (ftp.arundale.com:(none)): 
+331 User stfinge1 OK. Password required
+
+230 OK. Current restricted directory is /
+ftp> Hash mark printing On  ftp: (2048 bytes/hash mark) .
+ftp> hash
+cd public_html/docs/signals/help
+250 OK. Current directory is /public_html/docs/signals/help
+ftp> ftp> ! rem  - Runs the specified command on the local computer
+ Volume in drive C has no label.
+ Volume Serial Number is 98C8-9684
+
+ Directory of C:\Users\Admin\Documents\ais\YachtSource\help
+
+05/01/2018  10:30    <DIR>          .
+05/01/2018  10:30    <DIR>          ..
+05/01/2018  10:30                 0 arundalecom_FTP_Transfer.log
+05/01/2018  10:30                64 arundalecom_upload.bat
+05/01/2018  10:30             2,211 arundalecom_upload.txt
+19/03/2016  09:51            19,968 IN CASE OF EMERGENCY.doc
+19/03/2016  11:42            34,794 IN CASE OF EMERGENCY.pdf
+01/01/2018  13:12    <DIR>          pics
+03/01/2018  08:56            16,652 Race Station Horn and Lights Mod2.odg
+03/01/2018  08:27            56,543 Race Station Horn and Lights Mod2.pdf
+01/01/2018  12:40            28,360 SYC Installation Instructions.odt
+01/01/2018  12:40           249,112 SYC Installation Instructions.pdf
+19/03/2016  10:41            15,889 SYC Race Station PC Instructions W10 Touch.odt
+31/12/2017  15:53            37,103 SYC Race Station PC Instructions W10 v2.odt
+31/12/2017  15:54           499,516 SYC Race Station PC Instructions W10 v2.pdf
+24/02/2016  16:02            26,221 SYC Race Station PC Instructions W8.odt
+              13 File(s)        986,433 bytes
+               3 Dir(s)  1,883,272,192,000 bytes free
+ftp> !dir
+ascii
+200 TYPE is now ASCII
+ftp> binary
+200 TYPE is now 8-bit binary
+ftp> put "SYC Race Station PC Instructions W10 v2.pdf"
+200 PORT command successful
+150 Connecting to port 51851
+###################################################################################################################################################################################################################################################
+226-File successfully transferred
+226 5.479 seconds (measured here), 89.04 Kbytes per second
+ftp: 499516 bytes sent in Seconds Kbytes/sec.
+ftp> 5.0998.19bye
+221-Goodbye. You uploaded 488 and downloaded 0 kbytes.
+221 Logout.

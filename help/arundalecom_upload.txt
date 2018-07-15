@@ -1,0 +1,91 @@
+! rem This is a comment
+! :: and this is also a comment
+open ftp.arundale.com
+stfinge1
+open363dir
+hash
+cd public_html/docs/signals/help
+! rem  - Runs the specified command on the local computer
+!dir
+ascii
+binary
+put "SYC Race Station PC Instructions W10 v2.pdf"
+bye
+
+
+put AisDecoder_setup_3.5.151.exe
+put ais_decoder_v3_updates.html
+
+put ais_decoder_v3_updates.html
+put nmearouter.html
+put NmeaRouter_setup_1.3.67.exe
+
+cd //public_html
+put "C:\DirectNic\Live Parent (ArundaleCom)\sitemap.xml"
+put "C:\DirectNic\Live Parent (ArundaleCom)\robots.txt"
+
+put RacingSignals_setup_1.3.4.exe
+put RacingSignals_setup_1.3.3.exe
+
+put nmearouter.html
+put NmeaRouter_setup_1.3.66.exe
+put NmeaRouter_setup_1.2.66.exe
+put NmeaRouter_setup_1.2.65.exe
+put NmeaRouter_setup_1.2.64.exe
+put NmeaRouter_setup_1.2.63.exe
+put NmeaRouter_setup_1.2.62.exe
+put NmeaRouter_setup_1.2.61.exe
+
+put AisDecoder_setup_3.5.149.exe
+put AisDecoder_setup_3.4.149.exe
+put AisDecoder_setup_3.4.148.exe
+put AisDecoder_setup_3.4.147.exe
+put AisDecoder_setup_3.4.146.exe
+put AisDecoder_setup_3.4.145.exe
+put AisDecoder_setup_3.4.144.exe
+put AisDecoder_setup_3.4.143.exe
+put AisDecoder_setup_3.3.143.exe
+put AisDecoder_setup_3.3.142.exe
+put AisDecoder_setup_3.3.141.exe
+put AisDecoder_setup_3.3.139.exe
+put ais_decoder_v3_updates.html
+put ais_decoder_v3_downloads.html
+put AisDecoder_setup_3.3.138.exe
+put AisDecoder_setup_3.2.138.exe
+put AisDecoder_setup_3.2.137.exe
+
+put aishead.htmlf
+
+
+put RacingSignals_setup_1.3.2.exe
+put RacingSignals_setup_1.3.1.exe
+
+put AisDecoder_setup_3.2.136.exe
+put AisDecoder_setup_3.2.135.exe
+
+put nocontact.html
+put aerial.html
+
+Generate Sitemap from https://xmlsitemapgenerator.org/
+ascii
+cd //public_html
+put "C:\DirectNic\Live Parent (ArundaleCom)\sitemap.xml"
+put "C:\DirectNic\Live Parent (ArundaleCom)\robots.txt"
+
+All below needed changing when moved to arundale.com
+
+put virtualports.pdf
+
+put ais_decoder.html
+put AisDecoder_110x20.jpg
+put NmeaRouter_110x20.jpg
+
+put register.php
+put NmeaRouter_setup_1.2.61.exe
+
+put ProgramUpdate_setup_1.1.0.exe
+
+put AisDecoder_setup_3.2.134.exe
+
+cd downloads
+put downloads\ShipNames.zip

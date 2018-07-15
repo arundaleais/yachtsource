@@ -1,0 +1,14 @@
+frmMain = 167, 188, 1246, 812, , 30, 30, 1306, 654, C
+frmDpyBox = 120, 120, 1199, 744, C, 0, 0, 0, 0, C
+modMain = 104, 31, 1183, 696, 
+frmEvents = 90, 90, 1199, 657, I, 150, 150, 1426, 774, C
+modWav = 0, 0, 0, 0, C
+modEncrypt = 0, 0, 0, 0, C
+frmDaventech = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+modLog = 150, 150, 1229, 774, 
+modSysCalls = 150, 150, 1229, 774, 
+modLocale = 0, 0, 0, 0, C
+clsTimer = 0, 0, 0, 0, C
+modMyMsgBox = 0, 0, 0, 0, C
+frmMyMsgBox = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+clsUSBButton = 0, 0, 0, 0, C

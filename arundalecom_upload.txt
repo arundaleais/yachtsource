@@ -1,0 +1,18 @@
+! rem This is a comment
+! :: and this is also a comment
+open ftp.arundale.com
+stfinge1
+open363dir
+hash
+cd public_html/docs/downloads
+! rem  - Runs the specified command on the local computer
+!dir
+ascii
+binary
+put RacingSignals_setup_1.3.4.exe
+bye
+
+
+put RacingSignals_setup_1.3.2.exe
+put RacingSignals_setup_1.3.1.exe
+
